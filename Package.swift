@@ -14,7 +14,7 @@ let package = Package(
             targets: ["VaporSMTPKit"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/autimatisering/SMTPKitten.git", from: "0.1.0"),
+        .package(url: "https://github.com/uniformity-matters/VaporSMTPKit", from: "0.1.0"),
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
     ],
     targets: [
